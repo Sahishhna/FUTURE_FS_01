@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zahi – Jhumkas:The Sound of Style</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header role="banner">
+  <div class="header-inner container">
+    <a href="#" class="logo" aria-label="Jhumka Home">Zahi</a>
+    <nav class="desktop-nav" role="navigation" aria-label="Primary navigation">
+      <a href="#jhumkas" tabindex="0">Jhumkas</a>
+      <a href="#about" tabindex="0">About</a>
+      <a href="#services" tabindex="0">Services</a>
+      <a href="#contact" tabindex="0">Contact</a>
+    </nav>
+    <button 
+      class="hamburger" 
+      aria-label="Menu" 
+      aria-expanded="false" 
+      aria-controls="mobile-navigation"
+      id="hamburgerBtn"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-navigation" role="navigation" aria-label="Mobile navigation">
+    <a href="#Jhumkas" tabindex="-1">Jhumkas</a>
+    <a href="#about" tabindex="-1">About</a>
+    <a href="#services" tabindex="-1">Services</a>
+    <a href="#contact" tabindex="-1">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" role="region" aria-label="Introduction">
+    <h1>Tradition in Every Tinkle</h1>
+    <p>Jhumkas That Echo Elegance, Whisper Passion, and Stand Through Time.</p>
+    <button class="btn-primary" tabindex="0" type="button" onclick="document.getElementById('Jhumka').scrollIntoView({behavior:'smooth'})">Browse Jhumkas</button>
+  </section>
+
+  <section id="perfumes" class="container" role="region" aria-label="Featured Perfumes" tabindex="-1">
+    <h2 class="section-title">Featured Jhumkas</h2>
+    <div class="boat-grid">
+      <article class="boat-card" tabindex="0" aria-labelledby="boat1-name boat1-desc">
+        <img src="6.webp" alt="Saanjh Bela Pink Leaves Oxidised Jhumka" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat1-name" class="boat-name">Ruby Jhumkas with Attached Mattal</h3>
+          <p id="boat2-desc" class="boat-desc">Crafted with intricate details and adorned with sparkling ruby stones, these jhumkas are a symbol of elegance and grace. </p>
+          <div class="boat-price">$120</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Aroma Elixir No. 500">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat2-name boat2-desc">
+        <img src="1.webp" alt="Crimson perfume bottle on silk fabric" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat2-name" class="boat-name">Peacock White Pearl Jhumkas</h3>
+          <p id="boat2-desc" class="boat-desc">Perfect for festive occasions, weddings, casual outings, office wear, or vacations.</p>
+          <div class="boat-price">$98</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Velvet Rush 300">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat3-name boat3-desc">
+        <img src="2.webp" alt="Minimalist perfume bottle with earthy tones" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat3-name" class="boat-name"> Kemp Jhumkas</h3>
+          <p id="boat3-desc" class="boat-desc">A meaningful gift for mother, sister, wife, or girlfriend adding a beautiful touch of tradition to every moment.</p>
+          <div class="boat-price">$110</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Mystic Flora 250">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat4-name boat4-desc">
+        <img src="3.webp" alt="Perfume bottle with oceanic blue color scheme" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat4-name" class="boat-name">Saanjh Bela Pink Leaves Oxidised Jhumka</h3>
+          <p id="boat4-desc" class="boat-desc">Oxidised handcrafted jhumka earrings made with a blend of metal, stones, pearls, beads, and fine detailing.</p>
+          <div class="boat-price">$185</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Azure Whisper 410">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat5-name boat5-desc">
+        <img src="4.jpg"alt="Perfume bottle with gold shimmer" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat5-name" class="boat-name">Handcrafted Oxidised Silver Jhumka</h3>
+          <p id="boat5-desc" class="boat-desc">Crafted with precision and passion, these  jhumka earrings capture the essence of traditional craftsmanship while embodying a modern aesthetic. </p>
+          <div class="boat-price">$80</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Golden Aura 360">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat6-name boat6-desc">
+        <img src="5.webp" alt="Black matte perfume bottle with sleek design" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat6-name" class="boat-name">Elegant Oxidized Plain Jhumki Earrings</h3>
+          <p id="boat6-desc" class="boat-desc">Elevate your ethnic look with these oxidized plain jhumki earrings. The simplicity of the design adds a touch of grace, making them versatile for various occasions.</p>
+          <div class="boat-price">$85</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Noir Essence 470">Learn More</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about-section container" role="region" aria-label="About Aroma">
+    <img src="banner.jpg" alt="Aroma fragrance laboratory with elegant interiors" class="about-image" />
+    <div class="about-content">
+      <h2>About Zahi</h2>
+      <p>Since our inception in 2020, Zahi has redefined timeless elegance through the art of traditional jewelry. Each piece is a celebration of heritage intricately crafted to echo grace and culture.
+
+Blending classic charm with contemporary finesse, our jhumkas are more than ornaments ,they are stories worn with pride. With an unwavering commitment to craftsmanship and quality, Zahi has become a symbol of beauty and tradition for women around the world.</p>
+    </div>
+  </section>
+
+  <section id="services" class="container services" role="region" aria-label="Our Services" tabindex="-1">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-list">
+      <div class="service-card" tabindex="0">
+        <svg class="service-icon" ...></svg>
+        <div class="service-content">
+          <h3 class="service-title">Custom Jhumka Design</h3>
+          <p class="service-desc">Collaborate with our artisans to create a pair of jhumkas that reflect your personal style and story.</p>
+        </div>
+      </div>
+      <div class="service-card" tabindex="0">
+        <svg class="service-icon" ...></svg>
+        <div class="service-content">
+          <h3 class="service-title">Jewelry Care & Polishing</h3>
+          <p class="service-desc">Preserve the shine and detail of your treasured pieces with our expert maintenance and care solutions.</p>
+        </div>
+      </div>
+      <div class="service-card" tabindex="0">
+        <svg class="service-icon" ...></svg>
+        <div class="service-content">
+          <h3 class="service-title">Gifting & Personalization</h3>
+          <p class="service-desc">Celebrate special moments with beautifully wrapped jhumkas and customized packaging for a truly heartfelt gift.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section" role="region" aria-label="Contact Aroma">
+    <h2>Contact Us</h2>
+    <form class="contact-form" aria-describedby="contact-desc" novalidate>
+      <label for="name">
+        Name
+        <input type="text" id="name" name="name" placeholder="Your full name" required aria-required="true" />
+      </label>
+      <label for="email">
+        Email
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required aria-required="true" />
+      </label>
+      <label for="message">
+        Message
+        <textarea id="message" name="message" rows="5" placeholder="Your message or inquiry" required aria-required="true"></textarea>
+      </label>
+      <button class="btn-primary-submit" type="submit" aria-label="Submit contact form">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<footer role="contentinfo">
+  <div class="footer-container container">
+    <div class="footer-section" aria-label="Company information">
+      <h3>Zahi</h3>
+      <p>Timeless jhumkas, crafted to tell your story.</p>
+    </div>
+    <nav class="footer-section" aria-label="Footer navigation">
+      <h3>Navigate</h3>
+      <a href="#Jhumka">Jhumkas</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-section" aria-label="Contact information">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:aa3981863@gmail.com">zahi@gmail.com</a></p>
+      <p>Phone: <a href="tel:+18001234567">+1 (800) 123-4567</a></p>
+      <p>Address: City Palace Udaipur,Rajasthan India</p>
+    </div>
+    <div class="footer-section" aria-label="Social media links">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <!-- Social icons remain unchanged -->
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom" tabindex="0">&copy; 2025 Zahi Jhumkas. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
